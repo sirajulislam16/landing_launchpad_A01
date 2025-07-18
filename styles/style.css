@@ -1,0 +1,14 @@
+header{
+    width: 1440px;
+    height: 698px;
+    background-image: url(...Assets/Hero-bg.png);
+}
+nav{
+    display: flex;
+    width: 1140px;
+    height: 151px;
+    gap: auto;
+}
+nav ul li{
+    font-style: none;
+}
