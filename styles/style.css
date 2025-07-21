@@ -277,6 +277,14 @@ main section{
     border:none ;
  }
 
+ /* hover style */
+.sing-up:hover,.focus:hover,.btn-2:hover,.focus-btn:hover{
+  background-color: #758328;   /* Change color */
+  transform: scale(1.05);
+}
+
+
+
  /* footer style */
  footer{
     background-color: rgba(180, 192, 203, 0.43);
