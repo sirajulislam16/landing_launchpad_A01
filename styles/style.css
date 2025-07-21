@@ -105,7 +105,7 @@ main section{
     width: 250px;
 }
 .btn-2{
-     background-color: #4E47FF;
+    background-color: #4E47FF;
     color: white;
     padding: 12px 10px;
     font-size: 16px;
@@ -161,7 +161,8 @@ main section{
     border-radius: 24px;
     padding: 130px 150px;
     text-align: center;
-    
+    margin-bottom: 0px;
+
 
 }
 .feedback-title{
@@ -207,4 +208,32 @@ main section{
  .name{
     color: #757575;
     font-weight: bold;
+ }
+
+ /* Focus Better Section style */
+ .focus-better{
+    border-radius: 24px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 0px;
+ }
+ .focus-title{
+    font-size: 50px;
+    font-weight: bold;
+    color: #252432;
+    padding-bottom: 40px;
+ }
+ .focus-btn{
+     background-color: #4E47FF;
+    color: white;
+    padding: 12px 10px;
+    font-size: 16px;
+    border: none;
+    border-radius:6px;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-bottom: 30px;
+ }
+ .wc-big{
+    border-radius: 48px;
  }
