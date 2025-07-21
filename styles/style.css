@@ -276,3 +276,36 @@ main section{
     margin-bottom: 24px;
     border:none ;
  }
+
+ /* footer style */
+ footer{
+    background-color: rgba(180, 192, 203, 0.43);
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin: 50px;
+ }
+ .footer-title{
+    font-size: 100px;
+    font-weight: 900;
+    color: #4E47FF;
+    margin-bottom: 10px;
+ }
+ .footer-description{
+    font-size: 16px;
+    font-weight: thin;
+    color: #544e4e;
+    padding: 0;
+ }
+ .footer-items{
+    display: flex;
+    justify-content: space-around; 
+ }
+ .item-title{
+  font-weight: 100;
+  font-size: 14px;
+  color: #544e4e;
+  padding: 0;
+  margin-top: 10px;
+  gap: 10px;
+ }
