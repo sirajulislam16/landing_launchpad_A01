@@ -74,6 +74,16 @@ header{
     cursor: pointer;
 }
 
+/* main style */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
 /* action-section style */
  .action-section {
   display: flex;
@@ -112,4 +122,36 @@ header{
 .sub-title{
     font-weight: regular;
     font-size: 15px;
+}
+
+/* productive-user-section */
+.secondary-bg{
+    background-color: rgba(78, 71, 255, 0.1);
+}
+.productive-user-section{
+    border-radius: 24px;
+    padding: 130px 150px;
+    text-align: center;
+}
+.users{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+.description{
+    font-weight: bold;
+}
+.section-title{
+    font-size: 38px;
+    font-weight: bold;
+    color: #252432;
+}
+.users-num{
+    font-size: 80px;
+    font-weight: bold;
+    color:#4E47FF ;
+}
+.description{
+    font-size: 20px;
+    font-weight: 400;
 }
